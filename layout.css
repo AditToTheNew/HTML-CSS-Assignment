@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 3rem;
+    background: rgb(53, 52, 52);
+}
+header{
+    background: rgb(53, 52, 52);
+    padding: 1rem 0;
+    display: block;
+    color: rgb(225,225,225);
+    box-shadow: 0px 0px 3px 3px rgb(255 255 255 / 10%);
+}
+
+header div{
+    margin: 0 6rem;
+}
+
+h1{
+    margin-bottom: 1.25rem ;
+}
+
+hr{
+    margin: 0rem 5rem;
+}
+
+h5{
+    color: rgb(165, 163, 161);
+    margin: 3rem 0rem 1rem 5rem;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: rgb(34, 34, 37);
+}
+
+nav a{
+    color: rgb(151, 142, 142);
+    font-size: 1.05rem;
+    letter-spacing: 1.8px;
+    margin-right: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main{
+    background: white;
+    margin: 0;
+    padding: 2rem 1rem;
+}
+
+.layout1{
+    background: rgb(53, 52, 52);
+    height: 30vw;
+    margin: 0 5rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vw;
+    /* top: auto; */
+    color: white;
+    font-family: 'Vollkorn';
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+.main p{
+    color: rgb(165, 163, 161);
+    padding: 0.7rem;
+    margin: 1.7rem 5rem;
+    background: rgb(226, 223, 223);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.gallery{
+    display: flex;
+    margin: 1rem 5rem;
+}
+
+.img-container {
+    border: 1px solid rgb(167, 167, 168);
+    padding: 3px;
+    border-radius: 4px;
+    flex-basis: 25%;
+}
+
+.img-container:not(:last-child) {
+    margin-right: 8px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.caption {
+    background-color: rgb(223, 219, 219);
+    color: rgb(165, 163, 161);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+#footer {
+    box-shadow: 0px 0px 2px 2px rgb(255 255 255 / 10%);
+    display: block;
+    padding: 1rem 6rem;
+    background-color: rgb(34, 34, 37);
+}
+
+#footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#footer .container p {
+    color: white;
+    font-size: 10px;
+}
